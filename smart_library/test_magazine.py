@@ -1,6 +1,6 @@
 from magazine import Magazine
 
-mag = Magazine("The Great Gatsby", "F. Scott Fitzgerald", 1925, 2.5)
+mag = Magazine("Python for All", "Guido van Rossum", 2020)
 
 print(mag.get_details())
 print(mag.borrow())
